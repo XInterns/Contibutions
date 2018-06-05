@@ -1,0 +1,301 @@
+"id";"channel_id";"channel_name";"contributor_name";"creation_date";"message";"task_id";"team_domain";"team_id";"user_email";"user_id";"user_name"
+1;"C50TXTUG0";"contribution";"Deepankar Agrawal";"2017-05-05 12:23:46";"Delivered xke on hashicorp suite (Vagrant,packer,vault)";"";"xebia-india";"T0G1W843X";"dagrawal@xebia.com";"U1CP5V6D7";"deepankar_agrawal"
+2;"C50TXTUG0";"contribution";"Sumeet Chopra";"2017-05-05 12:30:08";"Delivered xke on Message Driven microservices using Spring Cloud";"";"xebia-india";"T0G1W843X";"schopra@xebia.com";"U3ZAU4KT8";"schopra"
+3;"C50TXTUG0";"contribution";"Brijesh Pant";"2017-05-08 17:57:53";"nexus is up @ http://nexus.xi-apps.in";"";"xebia-india";"T0G1W843X";"bpant@xebia.com";"U0HDX275L";"brijesh"
+4;"C50TXTUG0";"contribution";"Manu Bamba";"2017-05-09 19:01:27";"Created a blog-post on reactJS";"";"xebia-india";"T0G1W843X";"mbamba@xebia.com";"U43RK6G07";"m"
+5;"C50TXTUG0";"contribution";"Manish Saraswat";"2017-05-16 11:52:46";"Setup in-house Jenkins for xebia at jenkins.xi-apps.in";"";"xebia-india";"T0G1W843X";"msaraswat@xebia.com";"U0GSJ5551";"msaraswat"
+6;"D2UH78FQD";"directmessage";"Pawan Kumar";"2017-05-26 20:52:51";"Helped creation of new Xebia TA pairing assignment Train Schedule by attempting it and providing feedback #45 (Redmine)";"";"xebia-india";"T0G1W843X";"pawankumar@xebia.com";"U2UH78B3P";"pawankumar"
+7;"C50TXTUG0";"contribution";"Deepankar Agrawal";"2017-05-30 12:05:28";"Updated Homepage for http://xi-apps.in :art:";"";"xebia-india";"T0G1W843X";"dagrawal@xebia.com";"U1CP5V6D7";"deepankar_agrawal"
+8;"C50TXTUG0";"contribution";"Aditya Kalia";"2017-06-01 11:14:02";"Upgraded redmine to 3.3.3 and installed DMSF plugin for file management and enabling full text search";"";"xebia-india";"T0G1W843X";"akalia@xebia.com";"U0HDG0KGQ";"akalia"
+9;"C0G1ZQX6V";"general";"Aayush Richhariya";"2017-06-01 12:33:45";"[Helped creation of new Xebia TA pairing Archery assignment by attempting it and providing feedback #45 (Redmine)]";"";"xebia-india";"T0G1W843X";"arichhariya@xebia.com";"U4QFCL3P0";"aayushrichhariya"
+10;"C50TXTUG0";"contribution";"Tanmay Mehra";"2017-06-01 13:22:49";"Submitted train schedule hiring assignment solution in GoLang !!";"";"xebia-india";"T0G1W843X";"tmehra@xebia.com";"U0H5KDWGH";"tmehra"
+12;"C50TXTUG0";"contribution";"Shekhar Gulati";"2017-06-05 13:18:23";"Delivered XKE on code quality";"";"xebia-india";"T0G1W843X";"sgulati@xebia.com";"U0GUV790A";"shekhargulati"
+13;"C50TXTUG0";"contribution";"Shekhar Gulati";"2017-06-05 13:20:14";"Gave talk on Serverless at McKinsey meetup";"";"xebia-india";"T0G1W843X";"sgulati@xebia.com";"U0GUV790A";"shekhargulati"
+14;"C50TXTUG0";"contribution";"Manish Saraswat";"2017-06-06 09:20:22";"Created contributions report";"";"xebia-india";"T0G1W843X";"msaraswat@xebia.com";"U0GSJ5551";"msaraswat"
+15;"C50TXTUG0";"contribution";"Jasleen";"2017-06-08 12:33:50";"Automated password reset functionality for POSH application
+http://192.168.100.20/orientation";"";"xebia-india";"T0G1W843X";"jasleen@xebia.com";"U0GUN1D9C";"jasleen"
+16;"C50TXTUG0";"contribution";"Kapil Choudhary";"2017-06-14 13:30:55";"Created Xebia Policy application";"";"xebia-india";"T0G1W843X";"kchoudhary@xebia.com";"U0GUSPS9W";"kchoudhary"
+17;"C50TXTUG0";"contribution";"umesh maurya";"2017-06-19 17:27:30";"android sms otp module integration in android-accelerator https://github.com/xebiaww/accelerator-android/tree/otp";"";"xebia-india";"T0G1W843X";"umaurya@xebia.com";"U5DUVRREE";"umesh"
+18;"C50TXTUG0";"contribution";"Deepankar Agrawal";"2017-06-29 20:38:14";"Delivered First Session on IoT 101 Arduino Blinking LED";"";"xebia-india";"T0G1W843X";"dagrawal@xebia.com";"U1CP5V6D7";"deepankar_agrawal"
+19;"C50TXTUG0";"contribution";"Abhinav Tiwary";"2017-06-30 11:28:28";"Delivered Session on Code Refactoring";"";"xebia-india";"T0G1W843X";"atiwary@xebia.com";"U3YP5SN7N";"atiwary"
+20;"C50TXTUG0";"contribution";"Deepak Bansal";"2017-07-03 12:22:28";"Reviewed blog on CXP Backbase Performance Tip";"";"xebia-india";"T0G1W843X";"dbansal@xebia.com";"U4Y21T3ME";"dbansal.xebia"
+21;"C50TXTUG0";"contribution";"Manish Saraswat";"2017-07-05 17:15:40";"Configured analytics for blog site.";"";"xebia-india";"T0G1W843X";"msaraswat@xebia.com";"U0GSJ5551";"msaraswat"
+22;"C50TXTUG0";"contribution";"Rajat Nigam";"2017-07-12 17:58:20";"Presented Ignite Talk on Microservices (Session 1)";"";"xebia-india";"T0G1W843X";"rnigam@xebia.com";"U4008TXD2";"rajat965ng"
+23;"C50TXTUG0";"contribution";"Sunil Inteti";"2017-07-19 11:26:25";"Posted a new blog  on Backbase performance. http://blog.xebia.in/index.php/2017/07/19/performance-tuning-the-camel-parameters-in-backbase-cxp-application/";"";"xebia-india";"T0G1W843X";"sprakashinteti@xebia.com";"U0HG1UD18";"sprakashinteti"
+24;"C50TXTUG0";"contribution";"nikhilsolanki";"2017-07-21 16:31:18";"Created Fresh Version of Android Accelerator https://github.com/xebiaww/accelerator-android/tree/development";"";"xebia-india";"T0G1W843X";"nsolanki@xebia.com";"U4M7HV1R8";"nikhilsolanki"
+25;"C50TXTUG0";"contribution";"Abhinav Saxena";"2017-07-21 17:38:10";"Posted blog on *Selenium with C# and xUnit*
+http://blog.xebia.in/index.php/2017/06/13/selenium-with-c-and-xunit/";"";"xebia-india";"T0G1W843X";"asaxena@xebia.com";"U4BSW4BU1";"abhii"
+26;"C50TXTUG0";"contribution";"Yukti Khurana";"2017-08-01 15:07:34";"Posted a blog on Reusing Rails Scopes http://blog.xebia.in/index.php/2017/08/01/reusing-rails-scopes/";"";"xebia-india";"T0G1W843X";"ykhurana@xebia.com";"U5WBDTU58";"yukti"
+27;"D3YNU99BP";"directmessage";"Kapil Malhotra";"2017-08-10 12:39:42";"Gave a talk on *How Git Works?* at Dunhumby";"";"xebia-india";"T0G1W843X";"kmalhotra@xebia.com";"U0GUNC5RT";"kmalhotra"
+28;"C50TXTUG0";"contribution";"Manish Saraswat";"2017-08-10 12:42:08";"Created In-Out time report in https://xi-apps.in";"";"xebia-india";"T0G1W843X";"msaraswat@xebia.com";"U0GSJ5551";"msaraswat"
+29;"C50TXTUG0";"contribution";"Abhinav Tiwary";"2017-08-16 13:11:08";"XKE on design patterns";"";"xebia-india";"T0G1W843X";"atiwary@xebia.com";"U3YP5SN7N";"atiwary"
+30;"C50TXTUG0";"contribution";"Rahul  Lakhanpal";"2017-08-18 19:30:51";"Worked with PyData Team to get Xebia become sponsors of PyData Conference";"";"xebia-india";"T0G1W843X";"rlakhanpal@xebia.com";"U1ELJ2Y9F";"rlakhanpal"
+31;"C50TXTUG0";"contribution";"Vishal Pachori";"2017-08-29 12:25:40";"Given Ignite Talk on Mobile Center ( Contribution #68)";"";"xebia-india";"T0G1W843X";"vpachori@xebia.com";"U400WSE5U";"vpachori"
+32;"C50TXTUG0";"contribution";"Deepankar Agrawal";"2017-09-05 11:28:38";"made an excel merger for merging the regularizationData, Attendance Data and leave data for monthly calculations save a lot of manual effort for the HR 
+techStack : Electron, Node.js , Javascript, HTML/CSS
+repo: https://github.com/Deepankar01/xAttendance";"";"xebia-india";"T0G1W843X";"dagrawal@xebia.com";"U1CP5V6D7";"deepankar_agrawal"
+33;"C50TXTUG0";"contribution";"Gourav Jain";"2017-09-20 11:15:07";"Hi Guys,
+
+Just wanted to share this small piece of information with you, that I have been involved in authoring a book since Jan 2017, and as it’s been published and available for end-users now, so I am sharing the book related details for the same.
+ 
+Title -- ""Understanding Azure -- A Beginner’s Guide""
+URL -- http://www.c-sharpcorner.com/ebooks/understanding-azure-a-beginners-guide
+ 
+Thanks!";"";"xebia-india";"T0G1W843X";"gjain@xebia.com";"U5WAUJQ0J";"gourav8jain"
+34;"C0G1ZQX6V";"general";"Sibi Prabakaran";"2017-09-20 18:46:49";"Contribution to open source library: Hapistrano
+
+Implemented run_locally feature to allows typed native commands to be
+run during deployment within the Hapistrano deploy cycle itself.
+
+PR link: https://github.com/stackbuilders/hapistrano/pull/82";"";"xebia-india";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+35;"C50TXTUG0";"contribution";"Sumeet Chopra";"2017-09-22 16:54:35";"Delivered xke on Message Driven microservices using Spring Cloud Stream Part-2";"";"xebia-india";"T0G1W843X";"schopra@xebia.com";"U3ZAU4KT8";"schopra"
+36;"C50TXTUG0";"contribution";"Rahul  Lakhanpal";"2017-09-24 13:15:04";"Gave a talk on ""Introduction to Julia with hands on Live Coding""";"";"xebia-india";"T0G1W843X";"rlakhanpal@xebia.com";"U1ELJ2Y9F";"rlakhanpal"
+37;"C50TXTUG0";"contribution";"Vipul Jain";"2017-09-25 16:42:46";"Delivered Webinar on ""Is BDD key to Devops ?""";"";"xebia-india";"T0G1W843X";"vjain@xebia.com";"U3YPWLJKF";"vjain"
+38;"C50TXTUG0";"contribution";"Arun Kant Pant";"2017-09-25 17:21:52";"Delivered xke on Components, Services and Routing in Angular 4";"";"xebia-india";"T0G1W843X";"akant@xebia.com";"U49BRDEKX";"arunkantpant"
+39;"C50TXTUG0";"contribution";"Vipul Jain";"2017-09-29 18:33:20";"Delivered Webinar on ""Is BDD key to Devops ?""";"";"xebia-india";"T0G1W843X";"vjain@xebia.com";"U3YPWLJKF";"vjain"
+40;"C50TXTUG0";"contribution";"anchalchopra";"2017-10-03 16:47:02";"Delivered Ignite talk on ""Data Encryption at Rest""";"";"xebia-india";"T0G1W843X";"achopra@xebia.com";"U3KLSNK96";"anchalchopra"
+41;"C50TXTUG0";"contribution";"shubham purwar";"2017-10-03 16:57:57";"Delivered Ignite talk on ""Data Encryption at Rest""";"";"xebia-india";"T0G1W843X";"spurwar@xebia.com";"U0T9S58G7";"spurwar"
+42;"C50TXTUG0";"contribution";"nikhilsolanki";"2017-10-06 11:44:34";"Delivered XKE sessions on Architectural Constructs & Design Practices for Android";"";"xebia-india";"T0G1W843X";"nsolanki@xebia.com";"U4M7HV1R8";"nikhilsolanki"
+43;"C50TXTUG0";"contribution";"Abhishek Gupta";"2017-10-27 17:05:23";"Organized Hackathon on Xebia Bangalore office";"";"xebia-india";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+44;"C50TXTUG0";"contribution";"Abhishek Gupta";"2017-10-27 17:06:46";"Successfully Delivered session in Microsoft Singapore on ""Building Planet Scale Mobile Apps using Azure Cosmos DB""";"";"xebia-india";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+45;"C50TXTUG0";"contribution";"Abhishek Gupta";"2017-10-27 17:07:11";"Successfully Organized Global Dev Ops Bootcamp in Microsoft Hyderabad";"";"xebia-india";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+46;"C50TXTUG0";"contribution";"Abhishek Gupta";"2017-10-27 17:07:48";"Delivered a session on behalf of Xebia in CsharpCorner noida Office on Building Planet Scale Mobile Apps o";"";"xebia-india";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+47;"C50TXTUG0";"contribution";"Abhishek Gupta";"2017-10-27 17:09:03";"Delivered a session on ""Xamrin Forms Fast Renders""  in Global Azure Bootcamp 2017  in Tech Mahindra Chennai";"";"xebia-india";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+48;"C0G1ZQX6V";"general";"Abhishek Gupta";"2017-10-30 09:54:44";"Delivered a session on Azure Cognitive Services in #Microsoft #Gurgaon on 28th of October.";"";"xebia-india";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+49;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2017-10-31 10:20:56";"Released xmonad-extras 0.13.2 (open source library)
+
+As the current maintainer of xmonad-extras, I released a new version
+today morning which provides additional functions to MPD (Music player
+daemon).
+
+Reference links:
+* Source repo link: https://github.com/xmonad/xmonad-extras
+* PR link: https://github.com/xmonad/xmonad-extras/pull/11
+* Hackage link: http://hackage.haskell.org/package/xmonad-extras";"";"xebia-india";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+50;"C50TXTUG0";"contribution";"Vishal Pachori";"2017-11-01 15:25:56";"Delivered a Session on ""Introduction to Xamarin Forms and MVVM"" at Microsoft Gurgaon office on 28 oct";"";"xebia-india";"T0G1W843X";"vpachori@xebia.com";"U400WSE5U";"vpachori"
+51;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2017-11-17 14:50:51";"Contribution to HCAR Report (Open source)
+
+https://www.haskell.org/communities/11-2017/html/report.html";"";"xebia-india";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+52;"C50TXTUG0";"contribution";"Mayank Mahajan";"2017-11-17 22:27:28";"Delivered a webinar on the topic “Unit Testing Your UI”";"";"xebia-india";"T0G1W843X";"mmahajan@xebia.com";"U1BUPAYCF";"mayankmahajan"
+53;"C50TXTUG0";"contribution";"Gourav Jain";"2017-11-20 11:39:41";"Organised a tech event at Xebia Gurgaon on 18-Nov-2017
+ 
+These were the speakers along with their working status and their topics–
+ 
+1.	Gourav Jain (Organizer & Speaker from Xebia, Book Author) – Topic – Cloud and Azure
+2.	Neha Sharma (Working in Google India Pvt Ltd and also co-founder of JSLovers Meetup group) – Topic – Google Assistant
+3.	Saurabh Somani (Microsoft MVP and Microsoft Certified Trainer) – Topic – Node JS
+4.	Diksha Deo (Co-founder of IOT firm) – Topic – IOT (Internet of things)
+
+Link -- http://www.c-sharpcorner.com/events/technology-event-azure-google-assistant-node-js-and-iot";"";"xebia-india";"T0G1W843X";"gjain@xebia.com";"U5WAUJQ0J";"gourav8jain"
+54;"C50TXTUG0";"contribution";"Gaurav Gaba";"2017-11-21 13:06:07";"Posted an article on Xebia blog - ""Banking Industry: Innovate or Perish""";"";"xebia-india";"T0G1W843X";"ggaba@xebia.com";"U4XHGLHBK";"gauravg"
+55;"D81RDAXR6";"directmessage";"Khushi Sagar";"2017-11-21 17:16:31";"helped in dev theory conference website design, development and branding http://thedevtheory.com/";"";"xebia-india";"T0G1W843X";"ksagar@xebia.com";"U5E25NKLM";"ksagar"
+56;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2017-11-28 17:14:03";"Contribution to Shelly.hs (Open source)
+
+* Released new version of Shelly to Hackage
+* Became new maintainer of it in Stackage (Thanks to Jens Petersen for maintaining it so long!)
+
+Related links:
+* https://github.com/yesodweb/Shelly.hs
+* https://github.com/yesodweb/Shelly.hs/commits?author=psibi
+* https://github.com/yesodweb/Shelly.hs/pull/158#issue-276762473";"";"xebia-india";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+57;"C50TXTUG0";"contribution";"Vishal Pachori";"2017-12-01 11:02:20";"Delivered XKE on Xamarin and App Center";"";"xebia-india";"T0G1W843X";"vpachori@xebia.com";"U400WSE5U";"vpachori"
+58;"C50TXTUG0";"contribution";"Prayag Mittal";"2017-12-01 11:27:27";"Delivered XKE on Android Architecture 2017";"";"xebia-india";"T0G1W843X";"pmittal@xebia.com";"U5GLH7D9R";"prayagmittal"
+59;"C50TXTUG0";"contribution";"Gaurav Gaba";"2017-12-01 13:15:03";"Posted an article on Xebia blog - ""Blockchain: Reshaping Financial Services Industry""";"";"xebia-india";"T0G1W843X";"ggaba@xebia.com";"U4XHGLHBK";"gauravg"
+60;"C50TXTUG0";"contribution";"Nitin Goyal";"2017-12-04 12:42:50";"Posted an article on Xebia blog - ""Executing mobile automation test cases on sauce labs cloud""";"";"xebia-india";"T0G1W843X";"ngoyal@xebia.com";"U4AJEA5TJ";"ngoyal"
+61;"C50TXTUG0";"contribution";"Nitin Goyal";"2017-12-04 12:44:12";"Posted an article on Xebia blog - ""Appium: Setting up various mobile platforms for automation""";"";"xebia-india";"T0G1W843X";"ngoyal@xebia.com";"U4AJEA5TJ";"ngoyal"
+62;"C50TXTUG0";"contribution";"Aditya Kalia";"2017-12-04 13:24:40";"Setup for timesheet plugin on xi-apps redmine";"";"xebia-india";"T0G1W843X";"akalia@xebia.com";"U0HDG0KGQ";"akalia"
+63;"C50TXTUG0";"contribution";"Tushar Gosalia";"2017-12-05 12:54:15";"Posted an article on Xebia blog - ""A new way of writing components: Compound Components""";"";"xebia-india";"T0G1W843X";"tgosalia@xebia.com";"U57S81U7L";"tushar_gosalia"
+64;"C50TXTUG0";"contribution";"Aloke Ghoshal";"2017-12-07 15:16:45";"Posted an article on Xebia blog - ""Getting started with Hyperledger Fabric and Allied Tools""";"";"xebia-india";"T0G1W843X";"aghoshal@xebia.com";"U4E02UE2C";"aghoshal"
+65;"D3YNU99BP";"directmessage";"Kapil Malhotra";"2017-12-07 15:50:04";"Delivered an XKE in Xebialabs-NL on Design Patterns in Containerised systems";"";"xebia-india";"T0G1W843X";"kmalhotra@xebia.com";"U0GUNC5RT";"kmalhotra"
+66;"C50TXTUG0";"contribution";"Deepak Bansal";"2017-12-07 15:50:39";"Delivered XKE on Container Design Patterns in Hilversum, NL";"";"xebia-india";"T0G1W843X";"dbansal@xebia.com";"U4Y21T3ME";"dbansal.xebia"
+67;"D3YNU99BP";"directmessage";"Kapil Malhotra";"2017-12-12 17:32:33";"Reviewed DevOps course contents for Xebia Academy";"";"xebia-india";"T0G1W843X";"kmalhotra@xebia.com";"U0GUNC5RT";"kmalhotra"
+68;"C50TXTUG0";"contribution";"Varun Velhankar";"2017-12-14 17:24:25";"Helped in designing of new website for giveindia.org";"";"xebia-india";"T0G1W843X";"vvelhankar@xebia.com";"U6ZNE32TF";"varunvelhankar"
+69;"C0G1ZQX6V";"general";"Gourav Jain";"2017-12-14 19:13:23";"Represented Microsoft to deliver full-day workshop on ""MS Azure"" at 08-12-2017 from Gurgaon being a part of the initiative ""Microsoft App Innovation Circle"" running in four cities parallely - Gurgaon, Hyderabad, Bangalore and Mumbai.";"";"xebia-india";"T0G1W843X";"gjain@xebia.com";"U5WAUJQ0J";"gourav8jain"
+70;"C50TXTUG0";"contribution";"Rupesh Kumar Roy";"2017-12-15 10:19:42";"Delivered XKE session on ""Object Oriented Design And Principles"" at Bangalore Office.  Topics Covered : 1. Business Impact of Bad code 2. What really OO design came up with?  3. SOLID Principles";"";"xebia-india";"T0G1W843X";"rroy@xebia.com";"U7PFPSQ82";"rroy"
+71;"C50TXTUG0";"contribution";"Yukti Khurana";"2017-12-15 14:13:44";"Helped in design fixes of the new website for thenudge.org";"";"xebia-india";"T0G1W843X";"ykhurana@xebia.com";"U5WBDTU58";"yukti"
+72;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2017-12-18 11:47:56";"Spoke about Yesod in Bangalore Haskell meetup group
+
+Meetup link: https://www.meetup.com/The-Bangalore-Haskell-User-Group/events/245777992/
+Slides: https://github.com/psibi/latex/blob/master/yesod-talk/yesod.pdf";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+73;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2017-12-19 13:51:24";"Implement snapshot view feature (Open source contribution)
+
+Implemented the feature for the Stack tool (Kind of like npm but for
+Haskell). It took around 5 months to get the PR merged.
+
+PR link: https://github.com/commercialhaskell/stack/pull/3252
+Project home page: https://github.com/commercialhaskell/stack";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+74;"C50TXTUG0";"contribution";"Akshay Mathur";"2017-12-20 17:46:17";"Delivered XKE on ""What's new in Java 9""";"";"xebia-intl";"T0G1W843X";"amathur@xebia.com";"U0GSN2KGX";"akshaymathur"
+75;"C50TXTUG0";"contribution";"Chandan Kumar";"2017-12-21 12:00:46";"Wrote a blog on spring-security-and-oauth2-with-azure-active-directory 
+http://blog.xebia.in/index.php/2017/12/21/spring-security-and-oauth2-with-azure-active-directory/";"";"xebia-intl";"T0G1W843X";"ckumar@xebia.com";"U0GT880V6";"ckumar"
+76;"D3YNMS2TF";"directmessage";"Manish Saraswat";"2017-12-23 19:59:44";"Implemented timesheet reminders for redmine";"";"xebia-intl";"T0G1W843X";"msaraswat@xebia.com";"U0GSJ5551";"msaraswat"
+77;"D3YNMS2TF";"directmessage";"Manish Saraswat";"2017-12-25 10:18:39";"Worked upon xi-apps improvements";"";"xebia-intl";"T0G1W843X";"msaraswat@xebia.com";"U0GSJ5551";"msaraswat"
+78;"C50TXTUG0";"contribution";"Gourav Jain";"2017-12-26 12:59:48";"Delivered a session on Azure at Microsoft on 16-Sep-2017 
+http://www.c-sharpcorner.com/events/learn-typescript-2-asp-net-core-and-angular";"";"xebia-intl";"T0G1W843X";"gjain@xebia.com";"U5WAUJQ0J";"gourav8jain"
+79;"C50TXTUG0";"contribution";"Gourav Jain";"2017-12-26 13:00:39";"Delivered a session on ""Hands-on with Design patterns"" at Microsoft on 08-July-2017 
+http://www.c-sharpcorner.com/events/learn-net-core-asp-net-web-api-2-and-azure";"";"xebia-intl";"T0G1W843X";"gjain@xebia.com";"U5WAUJQ0J";"gourav8jain"
+80;"C50TXTUG0";"contribution";"Gourav Jain";"2017-12-26 13:02:00";"Delivered a session on ""Getting started with TypeScript"" at Fujitsu Consulting India Private Limited on 24-June-2017
+Link - http://www.c-sharpcorner.com/events/learn-asp-net-core-mvc-azure-and-angular-4";"";"xebia-intl";"T0G1W843X";"gjain@xebia.com";"U5WAUJQ0J";"gourav8jain"
+81;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2017-12-26 14:36:23";"Remove code-page dependency of guage (Open source contribution)
+
+guage is a performance benchmarking library for Haskell.
+PR link: https://github.com/vincenthz/hs-gauge/pull/49";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+82;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2017-12-26 14:42:31";"Contribute fixes to yesod-scaffolding ( Open source contribution )
+
+Yesod is a web framework for Haskell.
+
+PR1: https://github.com/yesodweb/yesod-scaffold/pull/175
+PR2: https://github.com/yesodweb/yesod-scaffold/pull/176";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+83;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2017-12-26 14:45:25";"Improve docs for resourcet ( Open source contribution )
+
+resourcet is a safe resource allocation library for Haskell.
+
+PR link: https://github.com/snoyberg/conduit/pull/339";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+84;"C50TXTUG0";"contribution";"Vishal Pachori";"2017-12-27 16:18:42";"Created XebiaRateCalculator app for Android and iOS platform in Xamarin Forms.";"";"xebia-intl";"T0G1W843X";"vpachori@xebia.com";"U400WSE5U";"vpachori"
+88;"C50TXTUG0";"contribution";"Gourav Jain";"2018-01-02 13:39:51";"-- I have been rewarded with C# Corner MVP (Most Valuable Professional).
+Link - http://www.c-sharpcorner.com/news/2017-second-half-of-the-year-renewed-mvps-announced";"";"xebia-intl";"T0G1W843X";"gjain@xebia.com";"U5WAUJQ0J";"gourav8jain"
+89;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2018-01-04 16:46:19";"Port list-dependencies in Stack (Open source contribution)
+
+Deprecate the existing interface and move it under the new ls feature.
+
+Related links:
+* https://github.com/commercialhaskell/stack/pull/3706
+* https://github.com/commercialhaskell/stack/issues/3669";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+90;"C50TXTUG0";"contribution";"pbarar";"2018-01-09 07:25:50";"- “Do Agile Be Agile” training' for 16 Xebiaians on 2nd Dec 2017 (Saturday)";"";"xebia-intl";"T0G1W843X";"pbarar@xebia.com";"U0GV6QR8E";"pbarar"
+91;"C50TXTUG0";"contribution";"pbarar";"2018-01-09 07:26:26";"- “Do Agile Be Agile” training' for 14 Xebiaians on 16th Sep 2017 (Saturday)";"";"xebia-intl";"T0G1W843X";"pbarar@xebia.com";"U0GV6QR8E";"pbarar"
+92;"C50TXTUG0";"contribution";"Rupesh Kumar Roy";"2018-01-10 14:09:48";"Published blog on ""Why Code the SOLID way?"" which talks about impact of coding practices on the cost of Product Development and why Object Oriented design should follow SOLID principles";"";"xebia-intl";"T0G1W843X";"rroy@xebia.com";"U7PFPSQ82";"rroy"
+93;"C50TXTUG0";"contribution";"Abhay Aggarwal";"2018-01-10 16:15:06";"Conducted a ""Being Agile"" session in the Induction Bootcamp for new & recent joinees";"";"xebia-intl";"T0G1W843X";"aaggarwal@xebia.com";"U0K4E019U";"aaggarwal"
+94;"C50TXTUG0";"contribution";"vishnubabu_s";"2018-01-12 15:18:47";"Delivered talk on ""Application Lifecycle Management"" in Bangalore XKE session on 12th Jan";"";"xebia-intl";"T0G1W843X";"vbabus@xebia.com";"U4CN2KD1T";"vishnubabu_s"
+95;"C50TXTUG0";"contribution";"Sunil Inteti";"2018-01-12 16:11:49";"Published a blog ""Deploying Backbase 5.6.4+ application on Weblogic 12c"" on 12th Jan";"";"xebia-intl";"T0G1W843X";"sprakashinteti@xebia.com";"U0HG1UD18";"sprakashinteti"
+96;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2018-01-15 11:43:19";"Current maintainer of persistent-redis
+
+Have took maintainership of persistent-redis. Thanks to Pavel Ryzhov
+for maintaining it so long.
+
+[1] https://github.com/fpco/stackage/pull/3156
+[2] https://github.com/yesodweb/persistent/pull/769
+[3] https://github.com/yesodweb/persistent/pull/763";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+97;"D3YNMS2TF";"directmessage";"Manish Saraswat";"2018-01-16 08:30:38";"Created Timesheet report for project managers.";"";"xebia-intl";"T0G1W843X";"msaraswat@xebia.com";"U0GSJ5551";"msaraswat"
+98;"C50TXTUG0";"contribution";"Jakkaraju Praneeth";"2018-01-17 18:00:59";"Published a blog ""Beauty of BDD with C#"" on 16th Jan";"";"xebia-intl";"T0G1W843X";"pjakkaraju@xebia.com";"U75NLJ8J3";"pjakkaraju"
+99;"C50TXTUG0";"contribution";"Amit Gulati";"2018-01-19 15:40:10";"Fixed Mobile and Web UI issues for  thedevtheory.com";"";"xebia-intl";"T0G1W843X";"agulati@xebia.com";"U0H5LC50S";"agulati"
+100;"C50TXTUG0";"contribution";"Aditya Chauhan";"2018-01-19 15:44:46";"Created Xebia Rate Calculator using reactJS";"";"xebia-intl";"T0G1W843X";"achauhan@xebia.com";"U4AMSB4G2";"adityachauhanxebia"
+101;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2018-01-23 19:53:04";"Fix FindSpec tests for shelly (Open source contribution)
+
+shelly is a library for doing systems programming in Haskell.
+
+Related links:
+
+* https://github.com/yesodweb/Shelly.hs/pull/163
+* https://github.com/yesodweb/Shelly.hs/issues/162
+* https://github.com/yesodweb/Shelly.hs/issues/150";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+102;"C50TXTUG0";"contribution";"Rupesh Kumar Roy";"2018-01-25 11:44:21";"Delivered a Free Webinar session on ""Why Code the SOLID way ? "" open to all the stakeholders and prospects of Xebia";"";"xebia-intl";"T0G1W843X";"rroy@xebia.com";"U7PFPSQ82";"rroy"
+103;"C50TXTUG0";"contribution";"Mayank Mahajan";"2018-01-25 14:07:20";"Worked on www.thedevtheory.com";"";"xebia-intl";"T0G1W843X";"mmahajan@xebia.com";"U1BUPAYCF";"mayankmahajan"
+104;"C50TXTUG0";"contribution";"Nitin Gupta";"2018-01-25 14:08:32";"Worked on www.thedevtheory.com";"";"xebia-intl";"T0G1W843X";"ngupta@xebia.com";"U0GUK9Y8L";"nitingupta"
+105;"C50TXTUG0";"contribution";"Deepankar Agrawal";"2018-01-30 11:08:13";"Created registeration service for www.thedevtheory.com heroku + google sheets";"";"xebia-intl";"T0G1W843X";"dagrawal@xebia.com";"U1CP5V6D7";"deepankar_agrawal"
+106;"C50TXTUG0";"contribution";"Deepankar Agrawal";"2018-01-30 11:09:15";"Created poster for www.thedevtheory.com space theme using photoshop";"";"xebia-intl";"T0G1W843X";"dagrawal@xebia.com";"U1CP5V6D7";"deepankar_agrawal"
+107;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2018-01-31 16:40:07";"Add Twilio copilot support for the Haskell Client
+(Open source contribution)
+
+Reference:
+* https://github.com/markandrus/twilio-haskell/pull/59
+* https://www.twilio.com/copilot";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+108;"C50TXTUG0";"contribution";"Mayank Mahajan";"2018-01-31 17:23:16";"Set up SEO and Analytics for www.thedevtheory.com";"";"xebia-intl";"T0G1W843X";"mmahajan@xebia.com";"U1BUPAYCF";"mayankmahajan"
+109;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2018-02-07 18:51:39";"Add support for Messaging markup in Twiml (Open source contribution)
+
+Twiml is twilio’s markup language
+
+Reference links:
+
+[0]: https://github.com/markandrus/twiml-haskell/pull/8
+[1]: https://www.twilio.com/docs/api/twiml";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+110;"C50TXTUG0";"contribution";"Abhishek Gupta";"2018-02-08 12:12:04";"Created Azure Powered Planet Scale CosmosDb based backend for Xebia Academy, including Rest API hosted on Azure";"";"xebia-intl";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+111;"C50TXTUG0";"contribution";"Abhishek Gupta";"2018-02-08 12:13:14";"created truly cross platform based  Xebia Academy app for iPhone.
+Android and Windows under development..";"";"xebia-intl";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+112;"C50TXTUG0";"contribution";"Tanmay Mehra";"2018-02-20 12:59:27";"Helped hiring team for DTU campus hiring event on weekend.";"";"xebia-intl";"T0G1W843X";"tmehra@xebia.com";"U0H5KDWGH";"tmehra"
+113;"C50TXTUG0";"contribution";"Akshay Mathur";"2018-02-20 13:06:39";"Helped hiring team for DTU campus hiring event on weekend.";"";"xebia-intl";"T0G1W843X";"amathur@xebia.com";"U0GSN2KGX";"akshaymathur"
+114;"C50TXTUG0";"contribution";"Mayank Mahajan";"2018-02-20 13:09:35";"Helped in hiring drive for Saxo Bank.";"";"xebia-intl";"T0G1W843X";"mmahajan@xebia.com";"U1BUPAYCF";"mayankmahajan"
+115;"C50TXTUG0";"contribution";"Abhishek Gupta";"2018-02-20 14:21:33";"Helped in Javascript Hiring drive for Saxo Bank";"";"xebia-intl";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+116;"C50TXTUG0";"contribution";"Yukti Khurana";"2018-02-21 11:37:09";"Helped in campus hiring at DTU";"";"xebia-intl";"T0G1W843X";"ykhurana@xebia.com";"U5WBDTU58";"yukti"
+117;"C50TXTUG0";"contribution";"Vipul Jain";"2018-02-21 15:33:11";"Gave XTR to XACT Team on ""Why and How to Embrace Behaviour Driven Development ?""";"";"xebia-intl";"T0G1W843X";"vjain@xebia.com";"U3YPWLJKF";"vjain"
+118;"C50TXTUG0";"contribution";"Himanshu Arya";"2018-02-22 14:36:25";"Implemented the UI of the revamped Xebia India Blog website (http://blog.xebia.in/)";"";"xebia-intl";"T0G1W843X";"harya@xebia.com";"U49TRT3C6";"himanshuarya"
+119;"C50TXTUG0";"contribution";"Vishal Pachori";"2018-02-26 17:48:06";"Helped in Xebia Academy App developed in Xamarin Forms";"";"xebia-intl";"T0G1W843X";"vpachori@xebia.com";"U400WSE5U";"vpachori"
+121;"C50TXTUG0";"contribution";"Sumit Jangir";"2018-02-27 12:29:59";"Helped in hiring drive for Saxo Bank.";"";"xebia-intl";"T0G1W843X";"sjangir@xebia.com";"U94BSPSNQ";"sjangir"
+122;"C0G1ZQX6V";"general";"Abhishek Gupta";"2018-02-27 17:40:56";"Took 6 Interviews for SAXO Bank Hiring.";"";"xebia-intl";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+125;"C50TXTUG0";"contribution";"Chandan Kumar";"2018-03-07 10:01:38";"Blog Published http://blog.xebia.in/index.php/2018/03/07/customize-oauth-2-0-access_token-to-add-role-access-with-azure-ad/";"";"xebia-intl";"T0G1W843X";"ckumar@xebia.com";"U0GT880V6";"ckumar"
+126;"C50TXTUG0";"contribution";"Sumit Jangir";"2018-03-07 10:14:52";"Taking interviews for Windows+.NET for Saxo Bank.";"";"xebia-intl";"T0G1W843X";"sjangir@xebia.com";"U94BSPSNQ";"sjangir"
+127;"C50TXTUG0";"contribution";"Rubina Gill";"2018-03-07 11:56:24";"Blog Published http://blog.xebia.in/index.php/2018/03/07/appium-with-c-for-ios-mobile-app-automation/";"";"xebia-intl";"T0G1W843X";"rgill@xebia.com";"U0H5J5JE9";"rgill"
+128;"C50TXTUG0";"contribution";"Gourav Jain";"2018-03-07 11:58:06";"Provide speaking over an event on Azure at Feb 3, 2018 at iKeva
+http://www.c-sharpcorner.com/events/learn-typescript-angular-v5-django-and-simplifying-cicd";"";"xebia-intl";"T0G1W843X";"gjain@xebia.com";"U5WAUJQ0J";"gourav8jain"
+129;"C50TXTUG0";"contribution";"Gourav Jain";"2018-03-07 12:01:45";"Speaking over in one of the largest annual conference in Gurgaon on 15th April on Azure.
+http://conference.c-sharpcorner.com/";"";"xebia-intl";"T0G1W843X";"gjain@xebia.com";"U5WAUJQ0J";"gourav8jain"
+130;"C50TXTUG0";"contribution";"Mayank Mahajan";"2018-03-08 12:36:51";"Part of the judgement panel for the 48 hour Hackathon held at UPES, dehradun.
+https://www.livehindustan.com/uttarakhand/dehradun/story--team-upes-cleansweep-awards-at-the-inter-university-coding-event-hackathon-2-0-1815495.html";"";"xebia-intl";"T0G1W843X";"mmahajan@xebia.com";"U1BUPAYCF";"mayankmahajan"
+131;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2018-03-08 16:22:40";"fb-1.2, yesod-fb-0.5.0, yesod-auth-fb-1.9.0 released (Open source contribution)
+
+Announcemnt post: https://groups.google.com/forum/#!topic/yesodweb/u1cjvuZ3GB4
+API docs: http://hackage.haskell.org/package/fb-1.2.0/docs/Facebook.html";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+132;"C50TXTUG0";"contribution";"Mayank Mahajan";"2018-03-13 11:00:29";"Helped with Java and Javascript hiring drive on Saturday";"";"xebia-intl";"T0G1W843X";"mmahajan@xebia.com";"U1BUPAYCF";"mayankmahajan"
+133;"C50TXTUG0";"contribution";"Aditya Chauhan";"2018-03-13 11:06:55";"Helped with Javascript(React and Angular) hiring drive on Saturday";"";"xebia-intl";"T0G1W843X";"achauhan@xebia.com";"U4AMSB4G2";"adityachauhanxebia"
+134;"C50TXTUG0";"contribution";"Anshul Vinay Parmar";"2018-03-13 11:14:10";"Helped with Javascript(React and Angular) hiring drive on Saturday";"";"xebia-intl";"T0G1W843X";"aparmar@xebia.com";"U8M0KRHD0";"aparmar"
+135;"C50TXTUG0";"contribution";"Deepankar Agrawal";"2018-03-13 22:26:19";"Helped with Javascript(React and Angular) hiring drive on Saturday";"";"xebia-intl";"T0G1W843X";"dagrawal@xebia.com";"U1CP5V6D7";"deepankar_agrawal"
+136;"C50TXTUG0";"contribution";"Panna Das";"2018-03-14 11:31:07";"Worked on CSR intitative helped in designing nudge.org";"";"xebia-intl";"T0G1W843X";"pdas@xebia.com";"U6PUDSNTB";"pdas"
+137;"C50TXTUG0";"contribution";"Zaid Rahman";"2018-03-15 14:06:24";"participated in 2 day hackathon held at Boston Scientific";"";"xebia-intl";"T0G1W843X";"zrahman@xebia.com";"U3ML89205";"zrahman"
+138;"C50TXTUG0";"contribution";"anchalchopra";"2018-03-15 14:07:09";"participated in hackathon held at Boston Scientific";"";"xebia-intl";"T0G1W843X";"achopra@xebia.com";"U3KLSNK96";"anchalchopra"
+139;"C50TXTUG0";"contribution";"shubham purwar";"2018-03-15 14:07:15";"participated in 2 day hackathon held at Boston Scientific.:slightly_smiling_face:";"";"xebia-intl";"T0G1W843X";"spurwar@xebia.com";"U0T9S58G7";"spurwar"
+140;"C50TXTUG0";"contribution";"nitin khandelwal";"2018-03-16 09:43:53";"Helped with Javascript hiring drive on Saturday";"";"xebia-intl";"T0G1W843X";"nkhandelwal@xebia.com";"U64E0H0ET";"nitinkhandelwal"
+141;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2018-03-16 12:48:02";"Support exceptions-9.0 in Shelly (Open source contribution)
+
+Related links:
+
+* https://github.com/yesodweb/Shelly.hs/pull/167
+* https://github.com/fpco/stackage/issues/3315#issuecomment-370724969";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+142;"C50TXTUG0";"contribution";"Mayank Mahajan";"2018-03-19 12:49:48";"Helped in recruitment drive at Amity University.";"";"xebia-intl";"T0G1W843X";"mmahajan@xebia.com";"U1BUPAYCF";"mayankmahajan"
+143;"C50TXTUG0";"contribution";"Deepankar Agrawal";"2018-03-19 14:05:24";"Helped in recruitment drive at Amity University.";"";"xebia-intl";"T0G1W843X";"dagrawal@xebia.com";"U1CP5V6D7";"deepankar_agrawal"
+144;"C50TXTUG0";"contribution";"Aniket Deshpande";"2018-03-19 17:18:43";"Led recruitment drive for Tesco";"";"xebia-intl";"T0G1W843X";"adeshpande@xebia.com";"U5VN6SW1Y";"aniketd"
+145;"C50TXTUG0";"contribution";"Aniket Deshpande";"2018-03-19 17:18:54";"Led recruitment drive for Tesco the second time";"";"xebia-intl";"T0G1W843X";"adeshpande@xebia.com";"U5VN6SW1Y";"aniketd"
+146;"C50TXTUG0";"contribution";"Maneet Kaur";"2018-03-19 21:06:29";"Was part of the recruitment panel at Amity University.";"";"xebia-intl";"T0G1W843X";"mkaur@xebia.com";"U0GULLJR5";"mkaur"
+147;"C50TXTUG0";"contribution";"Sharad Saraswat";"2018-03-22 11:06:59";"contributed in Xebia Rate Calculator web Application in Angular-5";"";"xebia-intl";"T0G1W843X";"s.sarawswat@xebia.com";"U63GRL7R9";"sharad"
+148;"C50TXTUG0";"contribution";"Vishal Pachori";"2018-03-22 11:09:10";"Contributed in Xebia Rate Calculator Web App";"";"xebia-intl";"T0G1W843X";"vpachori@xebia.com";"U400WSE5U";"vpachori"
+149;"C50TXTUG0";"contribution";"Arun Kumar";"2018-03-22 11:09:14";"Contributed in developing Xebia Rate Calculator Web Application using Angular-5";"";"xebia-intl";"T0G1W843X";"akumar@xebia.com";"U63B8FDG8";"akumar"
+150;"C50TXTUG0";"contribution";"Kapil Choudhary";"2018-03-27 12:23:24";"part of organising team of Xebia-Boston Scientific Hackathon.";"";"xebia-intl";"T0G1W843X";"kchoudhary@xebia.com";"U0GUSPS9W";"kapil_choudhary"
+151;"C50TXTUG0";"contribution";"Yukti Khurana";"2018-03-27 12:23:48";"part of organising team of Xebia-Boston Scientific Hackathon.";"";"xebia-intl";"T0G1W843X";"ykhurana@xebia.com";"U5WBDTU58";"yukti"
+152;"C50TXTUG0";"contribution";"Deepika Datta";"2018-03-27 12:33:51";"Part of organizing Team of Xebia-Boston Scientific Hackathon";"";"xebia-intl";"T0G1W843X";"deepika@xebia.com";"U4WNES88Z";"deepika_datta"
+153;"C50TXTUG0";"contribution";"Panna Das";"2018-03-27 14:38:03";"Part of organizing Team of Xebia-Boston Scientific Hackathon";"";"xebia-intl";"T0G1W843X";"pdas@xebia.com";"U6PUDSNTB";"pdas"
+154;"C50TXTUG0";"contribution";"Abhishek Jain";"2018-03-28 11:01:23";"Contributed in developing Xebia Posh-Security Application";"";"xebia-intl";"T0G1W843X";"abhishek.jain@xebia.com";"U6J74B6MT";"abhishek_jain"
+155;"C50TXTUG0";"contribution";"Akshay Mathur";"2018-03-28 16:54:38";"Delivered XKE on Impact of Data Privacy laws on Software Architecture";"";"xebia-intl";"T0G1W843X";"amathur@xebia.com";"U0GSN2KGX";"akshaymathur"
+156;"C50TXTUG0";"contribution";"Mayank Mahajan";"2018-04-03 12:13:39";"Conducted Internship drive at UPES, Dehradun on 31st March.";"";"xebia-intl";"T0G1W843X";"mmahajan@xebia.com";"U1BUPAYCF";"mayankmahajan"
+157;"C50TXTUG0";"contribution";"Shyam Agarwal";"2018-04-03 12:14:06";"Conducted Internship drive at UPES, Dehradun on 31st March";"";"xebia-intl";"T0G1W843X";"sagarwal@xebia.com";"U64RXG679";"sagarwal"
+158;"C50TXTUG0";"contribution";"Zaid Rahman";"2018-04-20 10:52:18";"Delivered XKE on Julia Lang";"";"xebia-intl";"T0G1W843X";"zrahman@xebia.com";"U3ML89205";"zrahman"
+159;"C50TXTUG0";"contribution";"Abhishek Srivastava";"2018-04-20 13:40:59";"Delivered XKE on *Introduction to DevOps & its practices*, any feedback will be highly appreciated.";"";"xebia-intl";"T0G1W843X";"asrivastava@xebia.com";"U9YLESQUA";"asrivastava"
+160;"C50TXTUG0";"contribution";"Jerry Thimothy J";"2018-04-21 14:34:03";"Took interviews on Angular 2 for Morgan Stanley";"";"xebia-intl";"T0G1W843X";"jthimothy@xebia.com";"U4P3BGLN7";"jerrythimothyj"
+161;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2018-04-25 17:48:24";"Add additional mime functions for aws-ses package
+
+PR: https://github.com/snoyberg/mime-mail/pull/56";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+162;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2018-04-25 17:49:26";"Contribution to open source 
+
+Documentation for yesod-cookbook added";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+163;"C50TXTUG0";"contribution";"Sibi Prabakaran";"2018-04-25 17:52:33";"Released xmonad-extras-0.13.3 (open source contribution)
+
+PR link: https://github.com/xmonad/xmonad-extras/pull/14
+Hackage link: https://hackage.haskell.org/package/xmonad-extras-0.13.3";"";"xebia-intl";"T0G1W843X";"sprabakaran@xebia.com";"U5U5MQGQ0";"sibi"
+164;"C50TXTUG0";"contribution";"Amrutesh Iyer";"2018-04-26 17:32:48";"Created a database of competitor organizations' talent pool, which will help us recruit niche talent.";"";"xebia-intl";"T0G1W843X";"aiyer@xebia.com";"U71T8FNP7";"aiyer"
+165;"C50TXTUG0";"contribution";"Gourav Jain";"2018-05-01 12:23:43";"Created a meet-up group for Xebia Microsoft COE ""Microsoft and Cloud Enthusiasts"" to share and learn new MS and Cloud technologies --
+http://meetu.ps/c/3S0wF/xcgK4/f";"";"xebia-intl";"T0G1W843X";"gjain@xebia.com";"U5WAUJQ0J";"gourav8jain"
+166;"C50TXTUG0";"contribution";"Abhishek Gupta";"2018-05-05 23:54:38";"Gave a Talk in Xebia's Dev Theory Conference on Azure Functions and Azure Cosmos DB";"";"xebia-intl";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+167;"C50TXTUG0";"contribution";"Abhishek Gupta";"2018-05-05 23:55:08";"Gave a Talk in Global Azure Bootcamp in Microsoft Gurgaon on Azure Machine Learning";"";"xebia-intl";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+168;"C50TXTUG0";"contribution";"Abhishek Gupta";"2018-05-05 23:55:27";"Gave a Webinar on  Introduction to ML and Azure ML";"";"xebia-intl";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+169;"C50TXTUG0";"contribution";"Abhishek Gupta";"2018-05-06 20:15:09";"cleared MCSA in Azure https://www.youracclaim.com/badges/e1d050ec-e05b-4759-8b19-91e27c034236";"";"xebia-intl";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+170;"C50TXTUG0";"contribution";"Abhishek Gupta";"2018-05-06 20:16:14";"became MCT Microsoft Certified Trainer in Azure for 2018-2019 https://www.youracclaim.com/badges/ab1ec21a-c665-443e-a147-ec321c15ddcf";"";"xebia-intl";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+171;"C50TXTUG0";"contribution";"Abhishek Gupta";"2018-05-06 20:18:16";"Cleared Intro to Python for Data Science Certification https://www.datacamp.com/statement-of-accomplishment/course/2d7c4c47bccab1b0d4eb07b21abc632468e6a278";"";"xebia-intl";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+172;"C50TXTUG0";"contribution";"Abhishek Gupta";"2018-05-06 20:18:45";"Cleared Intermediate Python for Data Science Certification https://www.datacamp.com/statement-of-accomplishment/course/cef2d3fc2b02fa71badfc5f66e5d5158c7fa2db4";"";"xebia-intl";"T0G1W843X";"agupta1@xebia.com";"U6VRS4RV3";"agupta1"
+173;"C50TXTUG0";"contribution";"Gourav Jain";"2018-05-07 12:26:32";"Cleared the exam -- Exam 486: Developing ASP.NET MVC Web Applications for Xebia Microsoft MLP status.";"";"xebia-intl";"T0G1W843X";"gjain@xebia.com";"U5WAUJQ0J";"gourav8jain"
+174;"C50TXTUG0";"contribution";"Gourav Jain";"2018-05-07 12:27:53";"Claimed the title - MCSA: Web Applications - Certified 2018 in Web Applications for Xebia Microsoft MLP status.";"";"xebia-intl";"T0G1W843X";"gjain@xebia.com";"U5WAUJQ0J";"gourav8jain"
+175;"C50TXTUG0";"contribution";"Vijay Kumar";"2018-05-08 12:27:14";"Written a blog on ""Automated Defect Creation in Jira via Jenkins""";"";"xebia-intl";"T0G1W843X";"vijay.kumar@xebia.com";"U9SSQP9NJ";"vijay.kumar"
+176;"C50TXTUG0";"contribution";"Panna Das";"2018-05-08 18:27:18";"was part of the organising team DevTheory";"";"xebia-intl";"T0G1W843X";"pdas@xebia.com";"U6PUDSNTB";"pdas"
+177;"C50TXTUG0";"contribution";"Gourav Jain";"2018-05-10 11:16:54";"Recieved the MCT title and am officially a Microsoft Certified Trainer!
+https://www.youracclaim.com/user/gourav8jain";"";"xebia-intl";"T0G1W843X";"gjain@xebia.com";"U5WAUJQ0J";"gourav8jain"
+178;"C50TXTUG0";"contribution";"Amit Gulati";"2018-05-16 15:48:20";"written blog on ""Exploring CSS Grid Layout""";"";"xebia-intl";"T0G1W843X";"agulati@xebia.com";"U0H5LC50S";"agulati"
+179;"C50TXTUG0";"contribution";"Abhishek Srivastava";"2018-05-18 16:13:38";"Delivered a Tech Talk on ""Open Source & Automation"" at UPES, Dehradun";"";"xebia-intl";"T0G1W843X";"asrivastava@xebia.com";"U9YLESQUA";"asrivastava"
+180;"C50TXTUG0";"contribution";"Sibasish Brahma";"2018-05-22 13:17:00";"Delivered a Tech Talk on ""Demystifying Bigdata"" at UPES, Dehradun";"";"xebia-intl";"T0G1W843X";"sbrahma@xebia.com";"U9102TPJ9";"sbrahma"
+181;"C50TXTUG0";"contribution";"Jerry Thimothy J";"2018-05-28 15:26:12";"Took interviews on React and Node on Weekend Drive";"";"xebia-intl";"T0G1W843X";"jthimothy@xebia.com";"U4P3BGLN7";"jerrythimothyj"
+182;"C50TXTUG0";"contribution";"Devinder Suthwal";"2018-05-29 12:19:34";"Fixed bugs in the external NewsLetter and made it work on all platform(web mail, Outlook and Mobile).";"";"xebia-intl";"T0G1W843X";"dsuthwal@xebia.com";"U6456238D";"dsuthwal"
+183;"C50TXTUG0";"contribution";"Rubina Gill";"2018-05-30 15:38:43";"Posted blog http://blog.xebia.in/index.php/2018/05/30/automate-hybrid-mobile-applications/";"";"xebia-intl";"T0G1W843X";"rgill@xebia.com";"U0H5J5JE9";"rgill"
