@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/XInterns/Contributions-BE.svg?branch=master)](https://travis-ci.org/XInterns/Contributions-BE)
+
 ## Contributions
 1. Person should be able to search either via name or the content of the contribution.
 2. The UI should show the labels/categories on the home page.
