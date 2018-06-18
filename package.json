@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "ujla",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "cors": "^2.8.4",
+    "mocha": "^5.2.0",
+    "request": "^2.87.0"
+  }
+}
