@@ -1,6 +1,6 @@
 var techwords = require('./tagwords');
 var con = require('./dbConnection');
-var techcount=[];
+
 
 var map = new HashMap();
 var techcount = [];
@@ -10,7 +10,7 @@ for (let i = 0; i < stop_words.length; i++) {
 }
 var mp=new HashMap();
 
-
+var tech_word;
  const _tag = (req, res) => {
 
   var msg = "SELECT msg FROM info";
