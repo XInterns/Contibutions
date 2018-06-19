@@ -2,49 +2,77 @@ var techwords = require('./tagwords');
 var con = require('./dbConnection');
 var techcount=[];
 
-const sort= (techcount)=>{
-    for(let i=0;i<techcount.length;i++)
-    {
-        for(let j=i+1;j<techcount.length;j++)
-        {
-            if(techcount[i]<techcount[j])
-            {
-                const temp= techcount[i];
-                techcount[i]=techcount[j];
-                techcount[j]=temp;
-               
-                const t= techwords[i];
-                techwords[i]=techwords[j];
-                techwords[j]=t;
-               
-            }
-        }
-    }
+var map = new HashMap();
+var techcount = [];
+
+for (let i = 0; i < stop_words.length; i++) {
+    map.set(stop_words[i], "1");
 }
+var mp=new HashMap();
+
+
  const _tag = (req, res) => {
 
-    for( let i=0;i<techwords.length;i++)
-    {  
-      
-       var count= "SELECT COUNT(message) FROM Contribution where message like '%"+techwords[i]+"%'";
-       
-         con.query(count, function (err, result, fields) {
-          
-           for(let j=0;j<100000;j++)
-           {;}
-         techcount[i]=parseInt(result[0]['COUNT(message)']);
+  var msg = "SELECT msg FROM info";
+        var count;
+        con.query("SELECT COUNT(msg) FROM info", function (err, result, fields) {
+            count = result[0]['COUNT(msg)'];
+            count = parseInt(count);
+
+        });
+
+        con.query(msg, function (err, result, fields) {
+            if (err) throw err;
+         
+            mp.clear();
+            let k = 0; var l = 0; let c = 0;
+            tech_word = '';
+            for (let i = 0; i < count; i++) {
+                for (let j = 0; j < result[i]['msg'].length; j++) {
+                    
+
+      if (result[i]['msg'][j] == ' '||result[i]['msg'][j] == '\n'||result[i]['msg'][j] == '\r'||    result[i]['msg'][j] == '0' ||result[i]['msg'][j] == '1' ||result[i]['msg'][j] == '2' ||result[i]['msg'][j] == '3' ||result[i]['msg'][j] == '4' ||result[i]['msg'][j] == '5' ||result[i]['msg'][j] == '6' ||result[i]['msg'][j] == '7' ||result[i]['msg'][j] == '8' ||result[i]['msg'][j] == '9' ||result[i]['msg'][j] == '-'||result[i]['msg'][j] == '!'||result[i]['msg'][j] == '#'||result[i]['msg'][j] == '/'||result[i]['msg'][j] == ':'|| result[i]['msg'][j] == ',' || result[i]['msg'][j] == '"' || result[i]['msg'][j] == '(' || result[i]['msg'][j] == ')' || result[i]['msg'][j] == '.') {
+                           
+                        if (!map.has(tech_word)) {
+                            
+                            techwords[l++] = tech_word;
+
+                            if(!mp.has(tech_word))
+                            {
+                                mp.set(tech_word,1);
+                            }
+                            else{
+                                var a=mp.get(tech_word);
+                                a++;
+                                mp.set(tech_word,a);
+                            }
+                        }
+                        tech_word = '';
+                       
+                    }
+                    else {
+                        tech_word += result[i]['msg'][j];
+                    }
+                }
+            }
            
-    }); 
-     }
-    
-    sort(techcount);
- for( let i =0;i<10;i++)
-     {
-         console.log(techwords[i]+" "+techcount[i]);
+        });
+                        
+        var array=[];
+        mp.forEach(function(value, key) {
+            array.push({
+                name :key ,
+                value: value
+            });
+        });
        
-    }
-  
-    res.send(techwords);
+        var sorted= array.sort(function(a,b){
+            return((a.value<b.value)?1:(b.value<a.value)?-1:0);
+        })
+        res.send(sorted);
+      
+    });
+
     
  };
 
