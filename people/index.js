@@ -8,7 +8,7 @@ const _tag = require('./methods/tag');
 
 router.get('/', _get);
 
-router.get('/search/:queryValue', _find);
+router.get('/search', _find);
 
 router.get('/tag', _tag);
 

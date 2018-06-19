@@ -5,7 +5,7 @@ var paginate=(req, result)=>{
         end=start+pageSize
         var response={
             noOfRecords:result.length,
-            size:Math.min(pageSize,result.length),
+            size:result.slice(start,end).length,
             results:result.slice(start, end)
         }
     return response
