@@ -1,6 +1,4 @@
 var techwords = require('./tagwords');
-var con = require('./dbConnection');
-
 
 var map = new HashMap();
 var techcount = [];
@@ -11,17 +9,19 @@ for (let i = 0; i < stop_words.length; i++) {
 var mp=new HashMap();
 
 var tech_word;
- const _tag = (req, res) => {
 
+ const _tag = (req, res) => {
+   
+   const connection=req.app.get('sql-connection');
   var msg = "SELECT msg FROM info";
         var count;
-        con.query("SELECT COUNT(msg) FROM info", function (err, result, fields) {
+        connection.query("SELECT COUNT(msg) FROM info", function (err, result, fields) {
             count = result[0]['COUNT(msg)'];
             count = parseInt(count);
 
         });
 
-        con.query(msg, function (err, result, fields) {
+        connection.query(msg, function (err, result, fields) {
             if (err) throw err;
          
             mp.clear();
