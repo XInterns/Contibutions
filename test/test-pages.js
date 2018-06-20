@@ -1,7 +1,7 @@
 var expect  = require('chai').expect;
 var request = require('request');
 var assert = require('chai').assert;
-var baseURL = "http://192.168.3.158:5000/"
+var baseURL = "http://192.168.2.168:5000/"
 
 describe("API test", function(){
 
