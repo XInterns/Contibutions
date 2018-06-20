@@ -14,10 +14,10 @@ var tech_word;
  const _tag = (req, res) => {
    
    const connection=req.app.get('sql-connection');
-     var msg = "SELECT mesage FROM info";
+     var msg = "SELECT message FROM Contribution";
         var count;
-        connection.query("SELECT COUNT(mesage) FROM info", function (err, result, fields) {
-            count = result[0]['COUNT(mesage)'];
+        connection.query("SELECT COUNT(message) FROM Contribution", function (err, result, fields) {
+            count = result[0]['COUNT(message)'];
             count = parseInt(count);
 
         });
@@ -30,10 +30,10 @@ var tech_word;
             tech_word = '';
             
             for (let outer = 0; outer < count; outer++) {
-                for (let inner = 0; j < result[outer]['mesage'].length; inner++) {
+                for (let inner = 0; j < result[outer]['message'].length; inner++) {
                     
 
-      if (result[outer]['mesage'][inner] == ' '||result[outer]['mesage'][inner] == '\n'||result[outer]['mesage'][inner] == '\r'||    result[outer]['mesage'][inner] == '0' ||result[outer]['mesage'][inner] == '1' ||result[outer]['mesage'][inner] == '2' ||result[outer]['mesage'][inner] == '3' ||result[outer]['mesage'][inner] == '4' ||result[outer]['mesage'][inner] == '5' ||result[outer]['mesage'][inner] == '6' ||result[outer]['mesage'][inner] == '7' ||result[outer]['mesage'][inner] == '8' ||result[outer]['mesage'][inner] == '9' ||result[outer]['mesage'][inner] == '-'||result[outer]['mesage'][inner] == '!'||result[outer]['mesage'][inner] == '#'||result[outer]['mesage'][inner] == '/'||result[outer]['mesage'][inner] == ':'|| result[outer]['mesage'][inner] == ',' || result[outer]['mesage'][inner] == '"' || result[outer]['mesage'][inner] == '(' || result[outer]['mesage'][inner] == ')' || result[outer]['mesage'][inner] == '.') {
+      if (result[outer]['message'][inner] == ' '||result[outer]['message'][inner] == '\n'||result[outer]['message'][inner] == '\r'||    result[outer]['message'][inner] == '0' ||result[outer]['message'][inner] == '1' ||result[outer]['message'][inner] == '2' ||result[outer]['message'][inner] == '3' ||result[outer]['message'][inner] == '4' ||result[outer]['message'][inner] == '5' ||result[outer]['message'][inner] == '6' ||result[outer]['message'][inner] == '7' ||result[outer]['message'][inner] == '8' ||result[outer]['message'][inner] == '9' ||result[outer]['message'][inner] == '-'||result[outer]['message'][inner] == '!'||result[outer]['message'][inner] == '#'||result[outer]['message'][inner] == '/'||result[outer]['message'][inner] == ':'|| result[outer]['message'][inner] == ',' || result[outer]['message'][inner] == '"' || result[outer]['message'][inner] == '(' || result[outer]['message'][inner] == ')' || result[outer]['message'][inner] == '.') {
                            
                         if (!map.has(tech_word)) {
                             
@@ -54,7 +54,7 @@ var tech_word;
                        
                     }
                     else {
-                        tech_word += result[outer]['mesage'][inner].toLowerCase();
+                        tech_word += result[outer]['message'][inner].toLowerCase();
                     }
                 }
             }
