@@ -4,7 +4,7 @@ const _find = ( req, res) => {
 const connection = req.app.get('sql-connection');
 
 var string_param= req.query.queryparam;
-if(string_param==null)
+if(string_param===null)
 {
     const _get=require('./methods/get')
     router.get('/', _get)
