@@ -10,8 +10,9 @@ describe("API test", function(){
         request(baseURL , function(error, response, body){
             //console.log(body);
             assert(JSON.parse(body), "Converted to JSON")
-            done();
+           
         });
+         done();
     });
 
 
@@ -22,8 +23,9 @@ describe("API test", function(){
         request(baseURL, function(error, response, body) {
             let result = JSON.parse(body);
             expect(body).to.have.length.greaterThan(0);
-            done();
+            
         });
+        done();
     });
 
     //To check the query parameter is contained in the result object
@@ -32,8 +34,9 @@ describe("API test", function(){
         request({url :baseURL + 'search?queryparam=xebia'}, function(error, response, body){
             let result = JSON.parse(body);
             expect(body).to.contain('xebia');
-            done();
+           
         });
+         done();
     });
 
    
