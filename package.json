@@ -10,6 +10,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.16.3",
+    "hashmap": "^2.3.0",
     "mysql": "^2.15.0"
   },
   "devDependencies": {

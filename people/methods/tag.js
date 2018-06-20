@@ -1,4 +1,5 @@
 var techwords = require('./tagwords');
+var HashMap = require('hashmap');
 
 var map = new HashMap();
 var techcount = [];
