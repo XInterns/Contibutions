@@ -1,12 +1,18 @@
 var express = require('express');
-var cors=require('cors')
-var people=require('./people')
-
 var app = express();
+var connection = require('./people/methods/dbConnection')
 
-app.use(cors())
-app.use('/', people)
+var cors = require('cors');
+var people= require('./people');
+
+
+
+// require('dotenv').config();
+
+app.set('sql-connection',connection);
+
+app.use(cors());
+app.use('/',people);
 
 app.listen(process.env.PORT||5000, function () {
-   console.log("server has started!!!")
-}); 
+    console.log("server has started!!!")});	
