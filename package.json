@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },
-  "author": ["soumya", "ujla"]
+  "author": ["soumya", "ujla"],
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.0.0",
