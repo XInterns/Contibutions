@@ -11,7 +11,7 @@ if(string_param===null)
 }
 else
 {
-    connection.query("select * from info where contributor_name like '%"+string_param+"%' or mesage like '%"+string_param+"%' order by creation_date desc",function(err,result){
+    connection.query(`select * from info where contributor_name like '${string_param}' or mesage like '%{$string_param}%' order by creation_date desc`,function(err,result){
         if(err)
             console.log(err)
         else
