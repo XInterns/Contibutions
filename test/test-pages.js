@@ -1,12 +1,13 @@
 var expect  = require('chai').expect;
 var request = require('request');
 var assert = require('chai').assert;
-var baseURL = "http://localhost:5000/"
+var baseURL = "http://192.168.3.158:5000/"
 
 describe("API test", function(){
-
+    //To check the output is returned as a JSON Object
     it('Check json objects are returned',function(done){
         request(baseURL , function(error, response, body){
+            //console.log(body);
             assert(JSON.parse(body), "Converted to JSON")
             done();
         });
@@ -32,10 +33,5 @@ describe("API test", function(){
         });
     });
 
-    // it('GET /tag',function(done){
-    //     request({url: baseURL + 'tag'}, function(err, response, body){            
-    //         expect(body).to.have.length.greaterThan(10);
-    //         done();
-    //     });
-    // })
+   
 });
