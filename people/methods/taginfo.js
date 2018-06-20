@@ -2,7 +2,7 @@ var paginate=require('./paginate')
 
 const _taginfo=(req,res)=>{
     const connection = req.app.get('sql-connection');
-    var tag= req.query.queryparam;
+    var tag= req.query.tag;
     
 
 var query="SELECT * FROM info WHERE mesage LIKE '%"+tag+"%'";
