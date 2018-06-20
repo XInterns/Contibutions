@@ -6,8 +6,7 @@ var baseURL = "http://192.168.3.158:5000/"
 describe("API test", function(){
 
     it('Check json objects are returned',function(done){
-        this.timeout(5000);
-        setTimeout(done,5000);
+        
         request(baseURL , function(error, response, body){
             assert(JSON.parse(body), "Converted to JSON")
             done();
@@ -18,8 +17,7 @@ describe("API test", function(){
 
     //To check the query returns some elements that are not  null
     it('GET /', function(done) {        
-        this.timeout(5000);
-        setTimeout(done,5000);
+        
         request(baseURL, function(error, response, body) {
             let result = JSON.parse(body);
             expect(body).to.have.length.greaterThan(0);
@@ -29,8 +27,7 @@ describe("API test", function(){
 
     //To check the query parameter is contained in the result object
     it('GET /search',function(done){
-        this.timeout(5000);
-        setTimeout(done,5000);
+     
         request({url :baseURL + 'search?queryparam=xebia'}, function(error, response, body){
             let result = JSON.parse(body);
             expect(body).to.contain('xebia');
@@ -38,10 +35,5 @@ describe("API test", function(){
         });
     });
 
-    // it('GET /tag',function(done){
-    //     request({url: baseURL + 'tag'}, function(err, response, body){            
-    //         expect(body).to.have.length.greaterThan(10);
-    //         done();
-    //     });
-    // })
+   
 });
