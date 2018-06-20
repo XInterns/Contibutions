@@ -4,7 +4,7 @@ const _get = (req, res) => {
     const connection = req.app.get('sql-connection');
     connection.query("select * from info order by creation_date desc",function(err,result){
         if(err)
-            console.log(err)
+            throw(err)
         else 
         {
             response=paginate(req, result)
