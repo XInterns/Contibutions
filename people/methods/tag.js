@@ -1,8 +1,9 @@
-var techwords = require('./tagwords');
+var stop_words = require('./tagwords');
 var HashMap = require('hashmap');
 
 var map = new HashMap();
-var techcount = [];
+
+var techwords=[];
 
 for (let iterator = 0; iterator < stop_words.length; iterator++) {
     map.set(stop_words[iterator].toLowerCase(), "1");
