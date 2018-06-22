@@ -31,7 +31,7 @@ var tech_word;
             tech_word = '';
             
             for (let outer = 0; outer < count; outer++) {
-                for (let inner = 0; j < result[outer]['message'].length; inner++) {
+                for (let inner = 0; inner < result[outer]['message'].length; inner++) {
                     
 
       if (result[outer]['message'][inner] == ' '||result[outer]['message'][inner] == '\n'||result[outer]['message'][inner] == '\r'||    result[outer]['message'][inner] == '0' ||result[outer]['message'][inner] == '1' ||result[outer]['message'][inner] == '2' ||result[outer]['message'][inner] == '3' ||result[outer]['message'][inner] == '4' ||result[outer]['message'][inner] == '5' ||result[outer]['message'][inner] == '6' ||result[outer]['message'][inner] == '7' ||result[outer]['message'][inner] == '8' ||result[outer]['message'][inner] == '9' ||result[outer]['message'][inner] == '-'||result[outer]['message'][inner] == '!'||result[outer]['message'][inner] == '#'||result[outer]['message'][inner] == '/'||result[outer]['message'][inner] == ':'|| result[outer]['message'][inner] == ',' || result[outer]['message'][inner] == '"' || result[outer]['message'][inner] == '(' || result[outer]['message'][inner] == ')' || result[outer]['message'][inner] == '.') {
