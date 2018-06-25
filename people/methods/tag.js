@@ -72,7 +72,7 @@ const getMessagesFromKeywords = (count, req) => new Promise((resolve, reject) =>
     });
 })
 
-
+//Find all the tag words 
  const _tag = (req, res) => {
    
    getCountOfMessages(req).then((countOfMessages) => {
