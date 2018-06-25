@@ -16,6 +16,7 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "cors": "^2.8.4",
+    "hashmap": "^2.3.0",
     "mocha": "^5.2.0",
     "request": "^2.87.0",
     "should": "^13.2.1"
