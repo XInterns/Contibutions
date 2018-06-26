@@ -1,5 +1,5 @@
 var clusters=["knowledge sharing","workshop","mobile","recruitment","hiring","open source","development","technologies",
-"organising","devops","companies","clients","languages","testing"];
+"organising","devops","companies","languages","testing"];
 
 var cluster_values=new HashMap();
 
@@ -14,16 +14,16 @@ var values=[{
              8:"meetup",
              9:"knowledge sharing"
             },
-            {
-                1:"xke",
-                2:"thedevtheory",
-                3:"webinar",
-                4:"conference",
-                5:"bootcamp",
-                6:"Pydata",
-                7:"ignite",
-                8:"meetup",
-                9:"workshop"
+           {
+             1:"xke",
+             2:"thedevtheory",
+             3:"webinar",
+             4:"conference",
+             5:"bootcamp",
+             6:"Pydata",
+             7:"ignite",
+             8:"meetup",
+             9:"workshop"
             },
             {1:"android",
             2:"mobile",
@@ -31,25 +31,21 @@ var values=[{
             4:"phone",
             },
             {
-            1:"amity",
-            2:"UPES",
-            3:"Dtu",
-            4:"recruitment",
-            5:"recruiting",
-            6:"recruit"
+            1:"recruitment",
+            2:"recruiting",
+            3:"recruit",
+            4:"hire",
+            5:"hired"
             },
             {1:"hiring",
-            2:"Amity",
-            3:"UPES",
-            4:"Dtu",
-            5:"hire",
-            
+             2:"hire",
+             3:"hired",
+             4:"recruit",
+             5:"recruited"            
             },
             {1:"open source",
             2:"github",
-            3:"git",
-            4:"development",
-            
+            3:"git"            
             } ,
             {1:"node",
             2:"js",
@@ -100,40 +96,28 @@ var values=[{
             2:"github",
             3:"xamarin",
             4:"saxo",
-            5:"google",
+            5:"Google",
             6:"boston scientific",
             7:"client",
             8:"clients"
             },
-            {1:"microsoft",
-            2:"mckinsey",
-            3:"xamarin",
-            4:"saxo",
-            5:"spicejet",
-            6:"company",
-            7:"companies"
-            },
-            {1:"rails",
+            {
+            1:"rails",
             2:"python",
-            3:"C",
-            4:"js",
-            5:"html",
-            6:"css",
-            7:"Php",
-            8:"java",
-            9:"javascript",
-            10:"languages",
-            11:"language"
+            3:"Php",
+            5:"java",
+            6:"javascript",
+            8:"java script",
+            7:"languages",
             },
             {
-             1: "units",
-             2: "BDD",
-             3: "TDD",
-             4: "junit",
-             5: "mocha",
-             6: "chai",
-             7: "testing",
-             8: "unit"
+             1: "BDD",
+             2: "TDD",
+             3: "junit",
+             4: "mocha",
+             5: "chai",
+             6: "testing",
+             
             }
 
                   ];
