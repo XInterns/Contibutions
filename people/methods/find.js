@@ -38,44 +38,37 @@ const _find = ( req, res) => {
         })
     }
  
-    else if(flag==0)                                       
+    else if(flag==0) //updating the clusters                                       
     {
         flag=1;
-        var k; var o={};
         wordnet.lookup(param, function(details) 
        {  
     
           console.log("Synonyms: " + details[0].synonyms);
           var synonyms=details[0].synonyms;
-          var c=1;  
-          for(var i=0;i<synonyms.length;i++)
+          var check=1;  
+          for(var sno=0;sno<synonyms.length;i++)
           {
            
-             cluster_values.forEach(function(value,key1){ 
-             var obj2=m1.get(key1);
+               cluster_values.forEach(function(value,key1)
+            { 
+               var obj2=cluster_values.get(key1);
        
-             Object.keys(obj2).forEach(function(key) {
+               Object.keys(obj2).forEach(function(key)
+             {
              
-             if (obj2[key] == synonyms[i]&& c==1) {
+               if (obj2[key] == synonyms[sno]&& check==1) 
+               {
             
-                
-                  console.log(key);
-                  console.log(key1);
-                  console.log(synonyms[i]);
                   obj2[key-'0'+1]=param;
-                  o=obj2;
-                  console.log(obj2);
-                  m1.set(key1,obj2);
-                  console.log(JSON.stringify((m1)));
-                  c=0;
+                  cluster_values.set(key1,obj2); //setting the new word in the map
+                  check=0;
               
-            }
-          }); 
-
-           
-                      
-        });
-        if(i==synonyms.length-1)  //on the second last query, run the basic search for the entered keyword
+               }
+             });                            
+            });
+        
+        if(i==synonyms.length-1)  //at the end of the last iteration, run the basic search for the entered keyword
         {
             connection.query("select * from info where contributor_name like '%"+string_param+"%' or mesage like '%"+string_param+"%' order by creation_date desc",function(err,result){
                 if(err) throw err;
