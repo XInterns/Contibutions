@@ -1,11 +1,9 @@
-const natural = require('natural');
-const wordnet = new natural.WordNet();
 var paginate=require('./paginate')
 const express = require('express');
 const router = express.Router();
 const cluster_values= require('./clusters')
 
-var flag=0;
+
 const _find = ( req, res) => {
     const connection = req.app.get('sql-connection');
 
@@ -13,7 +11,6 @@ const _find = ( req, res) => {
     if(string_param==null)                  //if queryparam is null then go to _get
     {
         const _get=require('./get')
-        flag=1;
         router.get('/', _get)
     }
     else if(cluster_values.has(string_param))
@@ -22,7 +19,7 @@ const _find = ( req, res) => {
         var cluster=""
         var results=[]
         for(var i=1;i<=Object.keys(queries).length;i++)
-            cluster=cluster+`select * from info where mesage like '%${queries[i]}%' order by creation_date desc;\n`;
+            cluster=cluster+`select * from contribution where message like '%${queries[i]}%' order by creation_date desc;\n`;
 
         connection.query(cluster,function(err,result,fields)
         {
@@ -33,60 +30,21 @@ const _find = ( req, res) => {
                     results.push(JSON.parse(JSON.stringify(result[j][k])))
             }
             response=paginate(req, results) 
-            flag =1;
             res.send(response)
         })
     }
- 
-    else if(flag==0) //updating the clusters                                       
+    else                                        //if not found in clusters then run basic search query
     {
-        flag=1;
-        wordnet.lookup(param, function(details) 
-       {  
-    
-          console.log("Synonyms: " + details[0].synonyms);
-          var synonyms=details[0].synonyms;
-          var check=1;  
-          for(var sno=0;sno<synonyms.length;i++)
-          {
-           
-               cluster_values.forEach(function(value,key1)
-            { 
-               var obj2=cluster_values.get(key1);
-       
-               Object.keys(obj2).forEach(function(key2)
-             {
-             
-               if (obj2[key2] == synonyms[sno]&& check==1) 
-               {
-            
-                  obj2[key2-'0'+1]=param;
-                  cluster_values.set(key1,obj2); //setting the new word in the map
-                  check=0;
-              
-               }
-             });                            
-            });
-        
-        if(i==synonyms.length-1)  //at the end of the last iteration, run the basic search for the entered keyword
-        {
-            connection.query("select * from info where contributor_name like '%"+string_param+"%' or mesage like '%"+string_param+"%' order by creation_date desc",function(err,result){
-                if(err) throw err;
-                else
-                {
-                    response=paginate(req, result)
-                
-                    res.send(response);
-                }
-            });
-        }
-    }
-    
-    }); //wordnet.lookup
-
+        connection.query("select * from contribution where contributor_name like '%"+string_param+"%' or message like '%"+string_param+"%' order by creation_date desc",function(err,result){
+            if(err) throw err;
+            else
+            {
+                response=paginate(req, result)
+                res.send(response);
+            }
+        });
 
     }
-    
 }
 
 module.exports = _find;
