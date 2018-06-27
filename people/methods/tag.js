@@ -16,7 +16,7 @@ var tech_word;
 //return the count of messages
 const getCountOfMessages = (req) => new Promise((resolve, reject) => {
     const connection = req.app.get('sql-connection');
-    connection.query("SELECT COUNT(message) FROM contribution", function (err, result, fields) {
+    connection.query("SELECT COUNT(message) FROM Contributions", function (err, result, fields) {
         if (err) return resolve(0);
         count = result[0]['COUNT(message)'];
         count = parseInt(count);
@@ -26,7 +26,7 @@ const getCountOfMessages = (req) => new Promise((resolve, reject) => {
 //return all the messages
 const getMessagesFromKeywords = (count, req) => new Promise((resolve, reject) => {
     const connection = req.app.get('sql-connection');
-    var message = "SELECT message FROM contribution";
+    var message = "SELECT message FROM Contributions";
     connection.query(message, function (err, result, fields) {
         if (err) {
             return reject(err);
@@ -38,9 +38,9 @@ const getMessagesFromKeywords = (count, req) => new Promise((resolve, reject) =>
         tech_word = '';
         for (let outer = 0; outer < count; outer++) {
             for (let inner = 0; inner < result[outer]['message'].length; inner++) {
-                if (result[outer]['message'][inner] == ' ' || result[outer]['message'][inner] == '\n' || result[outer]['message'][inner] == '\r' || result[outer]['message'][inner] == '0' || result[outer]['message'][inner] == '1' || result[outer]['message'][inner] == '2' || result[outer]['message'][inner] == '3' || result[outer]['message'][inner] == '4' || result[outer]['message'][inner] == '5' || result[outer]['message'][inner] == '6' || result[outer]['message'][inner] == '7' || result[outer]['message'][inner] == '8' || result[outer]['message'][inner] == '9' || result[outer]['message'][inner] == '-' || result[outer]['message'][inner] == '!' || result[outer]['message'][inner] == '#' || result[outer]['message'][inner] == '/' || result[outer]['message'][inner] == ':' || result[outer]['message'][inner] == ',' || result[outer]['message'][inner] == '"' || result[outer]['message'][inner] == '(' || result[outer]['message'][inner] == ')' || result[outer]['message'][inner] == '.') {
+                if (result[outer]['message'][inner] == ' ' || result[outer]['message'][inner] == '\n' || result[outer]['message'][inner] == '\r' || result[outer]['message'][inner] == '0' || result[outer]['message'][inner] == '1' || result[outer]['message'][inner] == '2' || result[outer]['message'][inner] == '3' || result[outer]['message'][inner] == '4' || result[outer]['message'][inner] == '5' || result[outer]['message'][inner] == '6' || result[outer]['message'][inner] == '7' || result[outer]['message'][inner] == '8' || result[outer]['message'][inner] == '9' || result[outer]['message'][inner] == '-' || result[outer]['message'][inner] == '!' || result[outer]['message'][inner] == '#' || result[outer]['message'][inner] == '/' || result[outer]['message'][inner] == ':' || result[outer]['message'][inner] == ',' || result[outer]['message'][inner] == '"' || result[outer]['message'][inner] == '(' || result[outer]['message'][inner] == ')' || result[outer]['message'][inner] == '.' || result[outer]['message'][inner] == '–' || result[outer]['message'][inner] == '—') {
 
-                    if (!map.has(tech_word)) {
+                   if (!map.has(tech_word)) {
 
                         techwords[next_word++] = tech_word;
 
