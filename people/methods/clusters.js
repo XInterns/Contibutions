@@ -1,5 +1,5 @@
 var clusters=["knowledge sharing","workshop","workshops","mobile","recruitment","hiring","open source","development","technologies",
-"organising","devops","companies","languages","testing"];
+"organising","devops","companies","testing"];
 
 var cluster_values=new HashMap();
 
@@ -108,18 +108,7 @@ var values=[{
             3:"xamarin",
             4:"saxo",
             5:"Google",
-            6:"boston scientific",
-            7:"client",
-            8:"clients"
-            },
-            {
-            1:"rails",
-            2:"python",
-            3:"Php",
-            5:"java",
-            6:"javascript",
-            8:"java script",
-            7:"languages",
+            6:"boston scientific"
             },
             {
              1: "BDD",
