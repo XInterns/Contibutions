@@ -1,4 +1,4 @@
-var clusters=["knowledge sharing","workshop","mobile","recruitment","hiring","open source","development","technologies",
+var clusters=["knowledge sharing","workshop","workshops","mobile","recruitment","hiring","open source","development","technologies",
 "organising","devops","companies","languages","testing"];
 
 var cluster_values=new HashMap();
@@ -15,6 +15,17 @@ var values=[{
              9:"knowledge sharing"
             },
            {
+             1:"xke",
+             2:"thedevtheory",
+             3:"webinar",
+             4:"conference",
+             5:"bootcamp",
+             6:"Pydata",
+             7:"ignite",
+             8:"meetup",
+             9:"workshop"
+            },
+            {
              1:"xke",
              2:"thedevtheory",
              3:"webinar",
