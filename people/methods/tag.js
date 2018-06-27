@@ -16,7 +16,7 @@ var tech_word;
 //return the count of messages
 const getCountOfMessages = (req) => new Promise((resolve, reject) => {
     const connection = req.app.get('sql-connection');
-    connection.query("SELECT COUNT(message) FROM Contributions", function (err, result, fields) {
+    connection.query("SELECT COUNT(message) FROM contribution", function (err, result, fields) {
         if (err) return resolve(0);
         count = result[0]['COUNT(message)'];
         count = parseInt(count);
@@ -26,7 +26,7 @@ const getCountOfMessages = (req) => new Promise((resolve, reject) => {
 //return all the messages
 const getMessagesFromKeywords = (count, req) => new Promise((resolve, reject) => {
     const connection = req.app.get('sql-connection');
-    var message = "SELECT message FROM Contributions";
+    var message = "SELECT message FROM contribution";
     connection.query(message, function (err, result, fields) {
         if (err) {
             return reject(err);
