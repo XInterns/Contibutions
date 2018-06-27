@@ -54,13 +54,13 @@ const _find = ( req, res) => {
             { 
                var obj2=cluster_values.get(key1);
        
-               Object.keys(obj2).forEach(function(key)
+               Object.keys(obj2).forEach(function(key2)
              {
              
-               if (obj2[key] == synonyms[sno]&& check==1) 
+               if (obj2[key2] == synonyms[sno]&& check==1) 
                {
             
-                  obj2[key-'0'+1]=param;
+                  obj2[key2-'0'+1]=param;
                   cluster_values.set(key1,obj2); //setting the new word in the map
                   check=0;
               
