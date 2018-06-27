@@ -19,7 +19,7 @@ const _find = ( req, res) => {
         var cluster=""
         var results=[]
         for(var i=1;i<=Object.keys(queries).length;i++)
-            cluster=cluster+`select * from info where mesage like '%${queries[i]}%' order by creation_date desc;\n`;
+            cluster=cluster+`select * from contribution where message like '%${queries[i]}%' order by creation_date desc;\n`;
 
         connection.query(cluster,function(err,result,fields)
         {
@@ -35,11 +35,11 @@ const _find = ( req, res) => {
     }
     else                                        //if not found in clusters then run basic search query
     {
-        connection.query("select * from info where contributor_name like '%"+string_param+"%' or mesage like '%"+string_param+"%' order by creation_date desc",function(err,result){
+        connection.query("select * from contribution where contributor_name like '%"+string_param+"%' or message like '%"+string_param+"%' order by creation_date desc",function(err,result){
             if(err) throw err;
             else
             {
-                response=paginate(req, result)
+                response=paginate(req,result)
                 res.send(response);
             }
         });

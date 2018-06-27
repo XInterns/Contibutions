@@ -1,7 +1,7 @@
 var paginate=require('./paginate')
 const _get = (req, res) => {
     const connection = req.app.get('sql-connection');
-    connection.query("select * from info order by creation_date desc",function(err,result){
+    connection.query("select * from contribution order by creation_date desc",function(err,result){
         if(err)
             console.log(err)
         else 

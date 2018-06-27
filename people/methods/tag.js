@@ -13,21 +13,21 @@ for (let iterator = 0; iterator < stop_words.length; iterator++) {
 var tagwords=new HashMap();
 
 var tech_word;
-//return the count of mesage
+//return the count of messages
 const getCountOfMessages = (req) => new Promise((resolve, reject) => {
     const connection = req.app.get('sql-connection');
-    connection.query("SELECT COUNT(mesage) FROM info", function (err, result, fields) {
+    connection.query("SELECT COUNT(message) FROM contribution", function (err, result, fields) {
         if (err) return resolve(0);
-        count = result[0]['COUNT(mesage)'];
+        count = result[0]['COUNT(message)'];
         count = parseInt(count);
         return resolve(count);
     });
 });
-//return the messages
+//return all the messages
 const getMessagesFromKeywords = (count, req) => new Promise((resolve, reject) => {
     const connection = req.app.get('sql-connection');
-    var mesage = "SELECT mesage FROM info";
-    connection.query(mesage, function (err, result, fields) {
+    var message = "SELECT message FROM contribution";
+    connection.query(message, function (err, result, fields) {
         if (err) {
             return reject(err);
             throw err
@@ -37,8 +37,8 @@ const getMessagesFromKeywords = (count, req) => new Promise((resolve, reject) =>
          var next_word = 0; let c = 0;
         tech_word = '';
         for (let outer = 0; outer < count; outer++) {
-            for (let inner = 0; inner < result[outer]['mesage'].length; inner++) {
-                if (result[outer]['mesage'][inner] == ' ' || result[outer]['mesage'][inner] == '\n' || result[outer]['mesage'][inner] == '\r' || result[outer]['mesage'][inner] == '0' || result[outer]['mesage'][inner] == '1' || result[outer]['mesage'][inner] == '2' || result[outer]['mesage'][inner] == '3' || result[outer]['mesage'][inner] == '4' || result[outer]['mesage'][inner] == '5' || result[outer]['mesage'][inner] == '6' || result[outer]['mesage'][inner] == '7' || result[outer]['mesage'][inner] == '8' || result[outer]['mesage'][inner] == '9' || result[outer]['mesage'][inner] == '-' || result[outer]['mesage'][inner] == '!' || result[outer]['mesage'][inner] == '#' || result[outer]['mesage'][inner] == '/' || result[outer]['mesage'][inner] == ':' || result[outer]['mesage'][inner] == ',' || result[outer]['mesage'][inner] == '"' || result[outer]['mesage'][inner] == '(' || result[outer]['mesage'][inner] == ')' || result[outer]['mesage'][inner] == '.') {
+            for (let inner = 0; inner < result[outer]['message'].length; inner++) {
+                if (result[outer]['message'][inner] == ' ' || result[outer]['message'][inner] == '\n' || result[outer]['message'][inner] == '\r' || result[outer]['message'][inner] == '0' || result[outer]['message'][inner] == '1' || result[outer]['message'][inner] == '2' || result[outer]['message'][inner] == '3' || result[outer]['message'][inner] == '4' || result[outer]['message'][inner] == '5' || result[outer]['message'][inner] == '6' || result[outer]['message'][inner] == '7' || result[outer]['message'][inner] == '8' || result[outer]['message'][inner] == '9' || result[outer]['message'][inner] == '-' || result[outer]['message'][inner] == '!' || result[outer]['message'][inner] == '#' || result[outer]['message'][inner] == '/' || result[outer]['message'][inner] == ':' || result[outer]['message'][inner] == ',' || result[outer]['message'][inner] == '"' || result[outer]['message'][inner] == '(' || result[outer]['message'][inner] == ')' || result[outer]['message'][inner] == '.') {
 
                     if (!map.has(tech_word)) {
 
@@ -63,7 +63,7 @@ const getMessagesFromKeywords = (count, req) => new Promise((resolve, reject) =>
                 }
                 else {
 
-                    tech_word += result[outer]['mesage'][inner].toLowerCase();
+                    tech_word += result[outer]['message'][inner].toLowerCase();
                 }
             }
         }
@@ -107,4 +107,4 @@ const getMessagesFromKeywords = (count, req) => new Promise((resolve, reject) =>
 
     };
 
- module.exports = _tag;
+module.exports = _tag;

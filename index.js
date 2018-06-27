@@ -6,9 +6,6 @@ var cors = require('cors');
 var people= require('./people');
 
 
-
-// require('dotenv').config();
-
 app.set('sql-connection',connection);
 
 app.use(cors());

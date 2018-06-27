@@ -5,14 +5,16 @@ const _taginfo=(req,res)=>{
     var tag= req.query.tag;
     
 
-var query="SELECT * FROM info WHERE mesage LIKE '%"+tag+"%'";
+var query="SELECT * FROM contribution WHERE message LIKE '%"+tag+"%'";
 connection.query(query,function(err,result){
     if (err) throw err;
-   else{
-    response= paginate(req,result);
-    res.send(response);
-   } 
+    else
+    {
+            response= paginate(req,result);
+            res.send(response);
+    } 
 
 });
 };
+
 module.exports = _taginfo;
