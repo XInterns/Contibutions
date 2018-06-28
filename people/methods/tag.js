@@ -43,11 +43,14 @@ const getMessagesFromKeywords = (count, req) => new Promise((resolve, reject) =>
                    if (!map.has(tech_word)) {
 
                         techwords[next_word++] = tech_word;
+                       
+                        tech_word=tech_word.replace(/[^a-zA-Z]/gm,"");
 
                         tech_word = tech_word.charAt(0).toUpperCase() + tech_word.slice(1);
 
                         if (!tagwords.has(tech_word)) {
-                         
+                            
+                            if(tech_word!="")
                             tagwords.set(tech_word, 1);
                         }
                         else {
