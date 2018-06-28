@@ -16,10 +16,12 @@ const _find = ( req, res) => {
     else if(cluster_values.has(string_param))
     {             
         var queries=cluster_values.get(string_param)
-        var cluster=""
+        var cluster="select * from contribution where message like '%"+queries[1]+"%'";
         var results=[]
-        for(var i=1;i<=Object.keys(queries).length;i++)
-            cluster=cluster+`select * from contribution where message like '%${queries[i]}%' order by creation_date desc;\n`;
+        for(var i=2;i<=Object.keys(queries).length;i++)
+            cluster=cluster+"OR message like '%"+queries[i]+"%'";
+        
+            cluster=cluster+" order by creation_date desc;\n";
 
         connection.query(cluster,function(err,result,fields)
         {
