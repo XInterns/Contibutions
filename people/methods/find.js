@@ -16,13 +16,11 @@ const _find = ( req, res) => {
     else if(cluster_values.has(string_param))
     {             
         var queries=cluster_values.get(string_param)
-        var cluster="select * from contribution where message like '%"+queries[1]+"%'";
+        var cluster=""
         var results=[]
-        for(var i=2;i<=Object.keys(queries).length;i++)
-            cluster=cluster+"OR message like '%"+queries[i]+"%'";
-        
-            cluster=cluster+" order by creation_date desc;\n";
-
+        for(var i=1;i<=Object.keys(queries).length;i++)
+            cluster=cluster+`select * from contribution where message like binary '%${queries[i]}%' order by creation_date desc;\n`;
+        console.log(cluster)
         connection.query(cluster,function(err,result,fields)
         {
             if(err) throw err;
@@ -37,7 +35,7 @@ const _find = ( req, res) => {
     }
     else                                        //if not found in clusters then run basic search query
     {
-        connection.query("select * from contribution where contributor_name like '%"+string_param+"%' or message like '%"+string_param+"%' order by creation_date desc",function(err,result){
+        connection.query("select * from contribution where contributor_name like '%"+string_param+"%' or message like binary '%"+string_param+"%' order by creation_date desc",function(err,result){
             if(err) throw err;
             else
             {
